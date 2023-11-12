@@ -1,0 +1,19 @@
+Q1:
+sudo sh -c 'echo "cat /etc/os-release > explore_system.txt" >> task2.txt'
+
+Q2:
+ps -e,ps -ef ,top
+
+Q3:
+For ALL services,run sudo systemct1 list-units --type=service
+If you are interested in Active services only then use sudo systemctl list-units --type=service --state=running
+
+Q4:
+df , df -h ,df -h /home ,df -i ,df -h
+sudo du -sh
+Thoughts: commands for free space gives very good understable output and for the sise of /root folder I was expecting it to be bigger that the output I got from running sudo du -sh.
+ 
+Q5:
+which vi 
+type vi
+whereis vi shows where the locations of the binary and it's man page

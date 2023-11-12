@@ -1,0 +1,11 @@
+[thabie@localhost linux_practice]$ ./counter.sh /var/log
+Directories: 9
+Files: 15
+[thabie@localhost linux_practice]$ ./counter.sh /tmp
+Directories: 9
+Files: 1
+[thabie@localhost linux_practice]$ sudo touch task4.txt
+[thabie@localhost linux_practice]$ ls
+counter.sh        explore_system.txt  task1.txt  task3.txt
+create_output.sh  sudo_user.txt       task2.txt  task4.txt
+[tha
